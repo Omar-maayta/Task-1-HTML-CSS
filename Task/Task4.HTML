@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.a{
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+.c{
+    width: 100px;
+    display: inline-block;
+}
+#p{
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+
+
+</style>    
+</head>
+<body>
+    <h1>Fill in your information</h1>
+    <label id="p">Form</label>
+    <form class="a">
+        
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname"><br>
+        <label for="">Email:</label><br>
+        <input type="text"><br>
+
+        <h4>Your Gender</h4>
+        <input type="radio" name="gender" id="m">
+        <label for="m">Male</label>
+        <input type="radio" name="gender" id="f">
+        <label for="f">Female</label>
+
+        <h4>Favorite Subject</h4>
+        <input type="checkbox" id="c++">
+        <label for="c++">C++</label>
+        <input type="checkbox" id="java">
+        <label for="java">Java</label>
+        <input type="checkbox" id="c#">
+        <label for="c#">C#</label>
+        <input type="checkbox" id="php">
+        <label for="php">PHP</label>
+        <input type="checkbox"id="sql">
+        <label for="sql">SQL</label>
+
+        <h4>Your City</h4>
+        <label for="city">City:</label>
+        <select name="City" id="city">
+        <option>irbid</option>
+        <option>Amman</option>
+        <option>Zarqa</option>
+
+        </select>
+<br>
+<br>
+        <label for="file">Select File to upload</label>
+        <input type="file" multiple id="file"> <br>
+<br>
+<br>
+        <label for="">Write about yourself:</label><br>
+        <br>
+        <textarea name="t1" id="text" cols="50" rows="5"></textarea><br>
+        <input type="submit"><br>
+
+        <br>    
+
+
+
+
+
+    </form>
+</body>
+</html>
